@@ -31,6 +31,12 @@ nav a:hover {
     color: #35c0d3;
 }
 
+table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 /* CSS Home */
 #home h1 {
     font-size: 36px;

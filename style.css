@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1, h3{
+    color: #333;
+}
+
+p{
+    color: #666;
+}
+
+nav {
+    margin-top: 20px;
+    background-color: #007BFF;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #35c0d3;
+}
+
+/* CSS Home */
+#home h1 {
+    font-size: 36px;
+}
+
+#home form {
+    margin-top: 20px;
+}
+
+#home label {
+    display: inline-block;
+    width: 100px;
+}
+
+#home input[type="text"], #home input[type="email"] {
+    width: 300px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#home input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#home input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* CSS Profile */
+#profile {
+    margin-top: 40px;
+}
+
+#profile h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* CSS Jadwal Pelajaran */
+#jadwal {
+    margin-top: 40px;
+}
+
+#jadwal table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#jadwal table, #jadwal th, #jadwal td {
+    border: 1px solid black;
+}
+
+#jadwal th, #jadwal td {
+    padding: 12px;
+    text-align: left;
+}
+
+table tr th {
+    background-color: #007BFF;
+}
+
+table tr td {
+    background-color: skyblue;
+}
+
+/* CSS Halaman Galeri */
+#galeri {
+    margin-top: 40px
+}
+
+#galeri .gallery {
+    display: flex;
+    gap: 20px;
+}
+
+#galeri .gallery img {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#galeri .gallery a {
+    text-decoration: none;
+}
+
+#galeri .gallery img:hover {
+    border-color: #007BFF;
+}

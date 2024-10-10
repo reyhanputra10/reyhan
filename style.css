@@ -82,30 +82,28 @@ table{
 }
 
 /* CSS Jadwal Pelajaran */
-#jadwal {
-    margin-top: 40px;
+.table {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-#jadwal table {
-    width: 100%;
+table {
     border-collapse: collapse;
+    width: 700px;
 }
 
-#jadwal table, #jadwal th, #jadwal td {
-    border: 1px solid black;
+th {
+    width: 1000px;
 }
 
-#jadwal th, #jadwal td {
-    padding: 12px;
-    text-align: left;
+tr {
+    width: 1000px;
 }
 
-table tr th {
-    background-color: #007BFF;
-}
-
-table tr td {
-    background-color: skyblue;
+td {
+    width: 1000px;
+    text-align: center;
 }
 
 /* CSS Halaman Galeri */
